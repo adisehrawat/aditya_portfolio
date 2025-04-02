@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import FadeInSection from "./FadeInSection";
 import MovingComponent from "react-moving-text";
 import "../css/About.css";
 const About = () => {
-  const [activeKey, setActiveKey] = useState("1");
 
   const one = (
     <p className="font-ntr text-gray-300 xl:text-2.5xl md:text-1.5xl sm:text-xl text-justify">
