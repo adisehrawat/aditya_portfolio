@@ -114,6 +114,13 @@ const NavBar = () => {
           >
             Projects
           </a>
+          <a
+            href="#contact"
+            className="hover:text-red-400"
+            onClick={() => setMenuOpen(false)}
+          >
+            Contact
+          </a>
 
           {/* Mobile Social Links */}
           <div className="flex space-x-4 pt-4">
