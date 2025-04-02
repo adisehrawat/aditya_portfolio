@@ -1,7 +1,6 @@
 import React from "react";
 import FadeInSection from "./FadeInSection";
 import MovingComponent from "react-moving-text";
-import "../css/About.css";
 const About = () => {
 
   const one = (
@@ -41,7 +40,7 @@ const About = () => {
           </span>
         </div>
 
-        <div className="about-content flex flex-row flex-wrap sm:flex-nowrap">
+        <div className="about-content flex flex-row flex-wrap md:flex-nowrap sm:flex-nowrap">
           <div className="about-description max-w-[600px]">
             {one}
             <p className="pt-5 xl:text-2.5xl md:text-1.5xl sm:text-xl text-gray-300">
@@ -79,12 +78,6 @@ const About = () => {
               iteration="1"
               fillMode="none"
             >
-              <img
-                alt="Aditya"
-                id="adi-img"
-                src="images/123.jpeg"
-                className="py-5 bg-transparent sm:px-auto max-w-[500px] sm:max-w-[300px] h-auto rounded-lg ml-5 hover:-translate-y-2 transition-transform duration-200 ease-in-out object-cover shadow-lg"
-              />
             </MovingComponent>
           </div>
         </div>

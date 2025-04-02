@@ -1,6 +1,6 @@
 import FadeInSection from "./FadeInSection";
-
-const Contact = () => {
+import React from "react";
+const Contacts = () => {
   return (
     <div
       id="contact"
@@ -80,4 +80,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contacts;
