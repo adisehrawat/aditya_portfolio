@@ -82,7 +82,7 @@ const About = () => {
               <img
                 alt="Aditya"
                 id="adi-img"
-                src="./assets/123.jpeg"
+                src="images/123.jpeg"
                 className="py-5 bg-transparent sm:px-auto max-w-[500px] sm:max-w-[300px] h-auto rounded-lg ml-5 hover:-translate-y-2 transition-transform duration-200 ease-in-out object-cover shadow-lg"
               />
             </MovingComponent>
